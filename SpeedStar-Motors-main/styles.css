@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the header */
+header {
+    text-align: center;
+    background-image: url('brabus.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+}
+
+h1 {
+    color: #e90707;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #fff;
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+nav li {
+    margin: 0;
+    text-align: center; /* Center align content */
+    display: flex;
+    flex-direction: column; /* Arrange content in a column */
+    align-items: center; /* Center align items horizontally */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px; /* Add space between links and images */
+}
+
+nav img {
+    display: block; /* Ensure images are block elements */
+    width: 100%; /* Make the images fill the entire width of the card */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* Styling the article section */
+article {
+    padding: 20px;
+}
+
+/* Styling the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+}
